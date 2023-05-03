@@ -13,17 +13,12 @@ import { Button } from 'react-bootstrap';
 function App() {
   return (
     <div className="App">
+      {/* <header className="App-header">
+
+
+      </header> */}
 
       <Card />
-
-
-
-      <header className="App-header">
-
-
-      </header>
-
-
     </div>
 
   );

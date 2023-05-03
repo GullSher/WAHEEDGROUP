@@ -16,6 +16,8 @@ const Cards = () => {
             <div className='Rows'>            <Row1 /></div>
             <div className='Rows'>            <Row1 /></div>
             <div className='Rows'>            <Row1 /></div>
+            <div className='Rows'>            <Row1 /></div>
+
 
 
             <div className="Footer"><Footer /></div>

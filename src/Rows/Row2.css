@@ -16,11 +16,11 @@
      /* background-color: #FFF; */
  }
 
- .card {
+ .card2 {
      /* max-width: 300px; */
      max-width: 100%;
      min-height: 250px;
-     background: #02b875;
+     background: #08f5d2;
      padding: 30px;
      border-radius: 3px;
      box-sizing: border-box;
@@ -29,12 +29,12 @@
      box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
  }
 
- .card:nth-child(2) {
-     background: #50acf6;
+ .card2:nth-child(2) {
+     background: #ee5656;
  }
 
- .card:last-child {
-     background: #673ab7;
+ .card2:last-child {
+     background: #ffd904;
  }
 
  .card-title {
@@ -69,12 +69,12 @@
      background: #FFF;
  }
 
- .card:nth-child(2) .card-btn:hover {
-     color: #4181ee;
+ .card2:nth-child(2) .card-btn:hover {
+     color: #ff3f9f;
      background: #FFF;
  }
 
- .card:last-child .card-btn:hover {
+ .card2:last-child .card-btn:hover {
      color: #673ab7;
      background: #FFF;
  }

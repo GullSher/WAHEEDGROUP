@@ -1,7 +1,9 @@
-import Navbar1 from '../Navbar/Navbar1.js'
-import Footer from '../Footer/Footer.js'
-import Row1 from '../Rows/Row1.js'
-// import '../Cards/Cards.css'
+import Navbar1 from '../Navbar/Navbar1.js';
+import Footer from '../Footer/Footer.js';
+import Row1 from '../Rows/Row1.js';
+import Row2 from '../Rows/Row2.js';
+// import ReactDOM from 'react-dom/client';
+// import Slider from '../Slider/Slider.js'
 
 const Cards = () => {
     return (
@@ -13,11 +15,13 @@ const Cards = () => {
             {/* <div className="" ></div> */}
             {/* <div className="card-body">Content</div> */}
             {/* <div className="card-footer">Footer</div> */}
-            <div className='Rows'>            <Row1 /></div>
-            <div className='Rows'>            <Row1 /></div>
-            <div className='Rows'>            <Row1 /></div>
-            <div className='Rows'>            <Row1 /></div>
+            {/* <div className='slider01'><Slider /></div> */}
 
+            <div className='Rows'> <Row1 /></div>
+            {/* <div className='Rows'> <Row1 /></div> */}
+            {/* <div className='Rows'>            <Row1 /></div> */}
+            <div className='Rows'> <Row2 /></div>
+            {/* <div className='Rows'> <Row1 /></div> */}
 
 
             <div className="Footer"><Footer /></div>

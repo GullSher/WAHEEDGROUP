@@ -1,13 +1,18 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar1 from './Navbar/Navbar1';
-import Footer from './Footer/Footer';
+import { Route, Routes } from "react-router-dom";
+// import Navbar1 from './Navbar/Navbar1';
+// import Footer from './Footer/Footer';
 import Card from './Cards/Cards';
+// import About from "./About";
+import About from "./Components/AboutUs";
+import NotFound from './Components/NotFound';
+
 // import Button from 'react-bootstrap/Button';
 
 // or less ideally
-import { Button } from 'react-bootstrap';
+// import { Button } from 'react-bootstrap';
 
 
 function App() {
@@ -17,7 +22,10 @@ function App() {
 
 
       </header> */}
-
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path='*' element={<NotFound />} />
+      </Routes>
       <Card />
     </div>
 

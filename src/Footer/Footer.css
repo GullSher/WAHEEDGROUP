@@ -167,6 +167,7 @@ a {
 
 .footer-social-amoeba-path {
   fill: #027b9a;
+
 }
 
 .footer-social-link.linkedin {
@@ -178,7 +179,7 @@ a {
 
 .footer-social-link {
   display: block;
-  padding: 10px;
+  padding: 1px;
   position: absolute;
 }
 

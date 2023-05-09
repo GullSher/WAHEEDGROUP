@@ -7,12 +7,9 @@ import Cards from './Cards/Cards';
 // import About from "./About";
 // import About from "./Components/AboutUs";
 // import NotFound from './Components/NotFound';
-
 // import Button from 'react-bootstrap/Button';
-
 // or less ideally
 // import { Button } from 'react-bootstrap';
-
 
 function App() {
   return (

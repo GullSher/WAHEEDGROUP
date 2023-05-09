@@ -1,6 +1,9 @@
 // import { ReactComponent as Brand } from '../../Assets/icons/logo.svg'
 // import { ReactComponent as Brand } from '../Assets/Icons/waheedgroup-logo1.jpg'
-import '../Navbar/Navbar1.css';
+import '../Navbar1/Navbar1.css';
+// import { mainlogo1 } from '../Assets/logo/waheedgroup-logo.jpg';
+import '../Assets/logo/waheedgroup-logo1.jpg';
+import '../Assets/logo/waheedgroup-logo.jpg';
 
 // import ReactDOM from 'react-dom';
 
@@ -17,9 +20,20 @@ const Navbar1 = () => {
    return (
 
       <nav>
+
          <div class="logo">
+            {/* <img src="logo1" height={"80px"} alt='Image not Found....   ' /> */}
+
+            {/* <img src="../Assets/logo/waheedgroup-logo1.jpg" height={"80px"} alt='not Found....   ' /> */}
+            {/* <img class="logo" src="../Assets/logo/waheedgroup-logo1.jpg" height={"80px"} alt='not Found....   ' /> */}
+            {/* <img alt="aa" src="../Assets/logo/waheedgroup-log.png" /> */}
+            {/* file:///H:/Work-Folder-9/Web Work 9/3 may 2023/gullshair/website/src/Assets/logo/waheedgroup-log.png */}
+            <img class="sealImage" height={"70px"} src="WhaeedHafeez.png" alt="file-not-found" />
+            {/* <img src="https://i.imgur.com/hCrQkJi.png" /> */}
+
             Waheed Group
          </div>
+
          <input type="checkbox" id="click" />
          <label for="click" class="menu-btn">
             <i class="fas fa-bars"></i>

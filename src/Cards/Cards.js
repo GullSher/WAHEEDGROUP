@@ -1,5 +1,8 @@
 // import Navbar from '../Navbar/Navbar.js';
-import Navbar from '../Navbar/Navbar.js';
+// import Navbar from '../Navbar/Navbar.js';
+
+import Navbar1 from '../Navbar1/Navbar1'
+// import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer.js';
 import Row1 from '../Rows/Row1.js';
 import Row2 from '../Rows/Row2.js';
@@ -12,7 +15,9 @@ const Cards = () => {
         <div className="cards">
             {/* <div className="card-header">Header</div> */}
             {/* <div className="card-header1"><Header /></div> */}
-            <div className="card-navbar"><Navbar /></div>
+            {/* <div className="card-header1"><Navbar1 /></div> */}
+            <div className="card-navbar1"><Navbar1 /></div>
+            {/* <div className="card-navbar"><Navbar /></div> */}
             {/* <div className="" ></div> */}
             {/* <div className="card-body">Content</div> */}
             {/* <div className="card-footer">Footer</div> */}

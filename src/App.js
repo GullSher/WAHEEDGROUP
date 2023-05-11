@@ -1,12 +1,17 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Route, Routes } from "react-router-dom";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+
 // import Navbar1 from './Navbar/Navbar1';
 // import Footer from './Footer/Footer';
-import Cards from './Cards/Cards';
-// import About from "./About";
-// import About from "./Components/AboutUs";
+// import Cards from './Cards/Cards';
+import Home from "./Components/Pages/Home";
+import AboutUs from "./Components/Pages/AboutUs";
+import Services from "./Components/Pages/Services";
+import ContactUs from "./Components/Pages/ContactUs";
+// import ContactUs from "/Components/Pages/ContactUs";
+import Navbar2 from './Components/NavBar2/Navbar2';
+
 // import NotFound from './Components/NotFound';
 // import Button from 'react-bootstrap/Button';
 // or less ideally
@@ -15,28 +20,35 @@ import Cards from './Cards/Cards';
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
+      <Navbar2 />
+      <Routes>
+        <Route exact path='/' Component={Home} />
+        <Route exact path='/Home' Component={Home} />
+        <Route exact path='/AboutUs' Component={AboutUs} />
+        <Route exact path='/Services' Component={Services} />
+        <Route exact path='/ContactUs' Component={ContactUs} />
+        {/* <Route exact path='/SignUp' Component={SignUp} /> */}
+      </Routes>
+      {/* <AboutUs /> */}
 
-      </header> */}
+
       {/* <Routes> */}
-      <Cards />
+      {/* <Cards /> */}
 
 
       {/* <Switch> */}
-      {/* <Route path="/" element={<Cards />} /> */}
 
-      {/* <Route path="/Home" element={<Home />} /> */}
-      {/* <Route path='*' element={<NotFound />} />
-          <Route path='/' exact component={Home} />
-          <Route path='/Contact1' component={Contact1} />
-          <Route path='/Services' component={Services} />
-          <Route path='/AboutUs' component={AboutUs} /> */}
+
 
 
       {/* </Switch>
     </Routes> */}
 
       {/* <Cards /> */}
+      {/* <AboutUs /> */}
+      {/* <ContactUs/> */}
+      {/* <Home /> */}
+      {/* <Services /> */}
     </div >
 
   );

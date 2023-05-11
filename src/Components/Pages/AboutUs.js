@@ -7,7 +7,7 @@ const About = () => {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                height: '90vh'
+                height: '20vh'
             }}
         >
             <h1>About</h1>

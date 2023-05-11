@@ -7,12 +7,11 @@ const Services = () => {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                height: '90vh'
+                height: '20vh'
             }}
         >
-            <h1>Services</h1>
-            <div><h1>page of Servics.</h1></div>
-            <div><h2>this is h2</h2></div>
+            <h1>Software Development Services</h1>
+
         </div>
 
     );

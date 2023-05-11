@@ -11,7 +11,10 @@ const Services = () => {
             }}
         >
             <h1>Services</h1>
+            <div><h1>page of Servics.</h1></div>
+            <div><h2>this is h2</h2></div>
         </div>
+
     );
 };
 

@@ -1,19 +1,25 @@
 // import { ReactComponent as Brand } from '../../Assets/icons/logo.svg'
 // import { ReactComponent as Brand } from '../Assets/Icons/waheedgroup-logo1.jpg'
+// import '../Navbar1/Navbar1.css';
+
+
 import '../Navbar1/Navbar1.css';
 // import { mainlogo1 } from '../Assets/logo/waheedgroup-logo.jpg';
 import '../Assets/logo/waheedgroup-logo1.jpg';
 import '../Assets/logo/waheedgroup-logo.jpg';
+// import '../'
 
 // import ReactDOM from 'react-dom';
 
 import {
-   BrowserRouter as Router,
+   // BrowserRouter as Router,
    // Switch,
    // Route,
    NavLink
    // Link
-} from "react-router-dom";
+} from 'react-router-dom';
+// import { NavLink } from 'react-router-dom'
+
 // import { NavLink } from 'react-router-dom';
 
 const Navbar1 = () => {
@@ -31,19 +37,21 @@ const Navbar1 = () => {
             <img class="sealImage" height={"70px"} src="WhaeedHafeez.png" alt="file-not-found" />
             {/* <img src="https://i.imgur.com/hCrQkJi.png" /> */}
 
-            Waheed Group
+            Waheed Group Navbar 1
          </div>
 
          <input type="checkbox" id="click" />
          <label for="click" class="menu-btn">
             <i class="fas fa-bars"></i>
          </label>
-         <ul>
+         <ul class="flex-container flex-end">
             <NavLink to="/">Home</NavLink> {/* The route to the home page is http://localhost:3000 */}
 
             {/* <NavLink path="/plans">contact me</NavLink> */}
             {/* Wants to check the link */}
-            <NavLink path="/plans">contact me</NavLink>
+            {/* <NavLink to="/about">About</NavLink> */}
+            <NavLink to="/contact">Contact Me</NavLink>
+            {/* <NavLink path="/plans">Contact Me</NavLink> */}
 
             <NavLink to="/about">About</NavLink> {/* About page route that is, http://localhost:3000/about */}
             <NavLink to="/services">Services</NavLink> {/* Services page route that is, http://localhost:3000/services */}
@@ -52,13 +60,23 @@ const Navbar1 = () => {
             {/* <NavLink to="/blog">Blog</NavLink> – Route to the blog page that is http://localhost:3000/blog */}
             {/* <NavLink to="/Gallery">Gallery</NavLink> – Route to the Gallery page that is http://localhost:3000/gallery */}
 
-            {/* 
-            <li><a class="active" href="#">Home</a></li>
+
+            {/* <li><a class="active" href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Gallery</a></li>
             <li><a href="#">Feedback</a></li>
             <li><a href="#">ContactUs</a></li> */}
+
+            {/* <ul class="flex-container flex-end">
+               <li class="flex-item">1</li>
+               <li class="flex-item">2</li>
+               <li class="flex-item">3</li>
+               <li class="flex-item">4</li>
+               <li class="flex-item">5</li>
+            </ul>
+ */}
+
 
          </ul>
       </nav >

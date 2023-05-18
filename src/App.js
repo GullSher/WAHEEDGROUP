@@ -12,6 +12,7 @@ import Services from "./Components/Pages/Services";
 import ContactUs from "./Components/Pages/ContactUs";
 
 import Footer from './Components/Footer/Footer';
+import Footer2 from './Components/Footer2/Footer2';
 // import NotFound from './Components/NotFound';
 // import Button from 'react-bootstrap/Button';
 // or less ideally
@@ -34,6 +35,7 @@ function App() {
         {/* <Route exact path='/SignUp' Component={SignUp} /> */}
       </Routes>
       <Footer />
+      <Footer2 />
 
     </div >
 

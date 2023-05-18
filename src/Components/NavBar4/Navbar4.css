@@ -259,7 +259,7 @@
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #222;
+  color: #222222;
   -webkit-transition: color 0.3s, background 0.3s;
   transition: color 0.3s, background 0.3s;
 }
@@ -1201,4 +1201,8 @@
 #navigation-push .small-size-header {
   padding: 15px 0px;
   text-align: right;
+}
+
+#header4 {
+  /* background-color: #222222; */
 }

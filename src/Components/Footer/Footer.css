@@ -19,9 +19,10 @@ a {
 
 
 .footer {
-  /* background-color: #004658; */
-  background-color: #9b7808;
-  color: #fff;
+  background-color: #004658;
+  /* background-color: #9b7808; */
+  background-color: #222222;
+  /* color: #fff; */
 }
 
 .footer-wave-svg {

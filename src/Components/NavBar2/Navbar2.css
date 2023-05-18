@@ -12,11 +12,13 @@
 }
 
 .bg-primary {
-  background-color: #9b7808 !important;
+  /* background-color: #9b7808 !important; */
+  background-color: #222222 !important;
 }
 
 Navbar {
-  background-color: #9b7808;
+  /* background-color: #9b7808; */
+  background-color: #2b2b2b !important;
 }
 
 Nav {

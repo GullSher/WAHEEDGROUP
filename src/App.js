@@ -1,17 +1,17 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route } from "react-router-dom";
-
-// import Navbar1 from './Navbar/Navbar1';
-// import Footer from './Footer/Footer';
+import Navbar2 from './Components/NavBar2/Navbar2';
+// import Navbar4 from './Components/NavBar4/Navbar4';
+// import Navbar5 from './Components/Navbar5/Navbar5';
+// import Navbar6 from './Components/Navbar6/Navbar6';
 // import Cards from './Cards/Cards';
 import Home from "./Components/Pages/Home";
 import AboutUs from "./Components/Pages/AboutUs";
 import Services from "./Components/Pages/Services";
 import ContactUs from "./Components/Pages/ContactUs";
-// import ContactUs from "/Components/Pages/ContactUs";
-import Navbar2 from './Components/NavBar2/Navbar2';
 
+import Footer from './Components/Footer/Footer';
 // import NotFound from './Components/NotFound';
 // import Button from 'react-bootstrap/Button';
 // or less ideally
@@ -21,6 +21,10 @@ function App() {
   return (
     <div className="App">
       <Navbar2 />
+      {/* <Navbar4 /> */}
+      {/* <Navbar5 /> */}
+      {/* <Navbar6 /> */}
+      {/* <Navbar4 /> */}
       <Routes>
         <Route exact path='/' Component={Home} />
         <Route exact path='/Home' Component={Home} />
@@ -29,26 +33,8 @@ function App() {
         <Route exact path='/ContactUs' Component={ContactUs} />
         {/* <Route exact path='/SignUp' Component={SignUp} /> */}
       </Routes>
-      {/* <AboutUs /> */}
+      <Footer />
 
-
-      {/* <Routes> */}
-      {/* <Cards /> */}
-
-
-      {/* <Switch> */}
-
-
-
-
-      {/* </Switch>
-    </Routes> */}
-
-      {/* <Cards /> */}
-      {/* <AboutUs /> */}
-      {/* <ContactUs/> */}
-      {/* <Home /> */}
-      {/* <Services /> */}
     </div >
 
   );

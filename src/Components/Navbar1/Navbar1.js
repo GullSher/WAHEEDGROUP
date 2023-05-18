@@ -7,6 +7,7 @@ import '../Navbar1/Navbar1.css';
 // import { mainlogo1 } from '../Assets/logo/waheedgroup-logo.jpg';
 import '../Assets/logo/waheedgroup-logo1.jpg';
 import '../Assets/logo/waheedgroup-logo.jpg';
+// import '.../Assets/logo/waheedgroup-logo.jpg';
 // import '../'
 
 // import ReactDOM from 'react-dom';

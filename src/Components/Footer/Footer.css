@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+.footer-h1 {
+  color: tomato;
+}
+
 .pg-footer {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 0;
@@ -15,7 +19,8 @@ a {
 
 
 .footer {
-  background-color: #004658;
+  /* background-color: #004658; */
+  background-color: #9b7808;
   color: #fff;
 }
 

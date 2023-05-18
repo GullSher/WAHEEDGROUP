@@ -3,7 +3,7 @@ import Row1 from "../Rows/Row1"
 import Row2 from '../Rows/Row2.js';
 // import Footer from '../Footer/Footer.js';
 
-const ContactUs = () => {
+const EnergySector = () => {
     return (
         <div
             style={{
@@ -28,6 +28,6 @@ const ContactUs = () => {
     );
 };
 
-export default ContactUs;
+export default EnergySector;
 
 //https://github.com/briancodex/react-navbar-v3/blob/main/src/components/Navbar/index.js

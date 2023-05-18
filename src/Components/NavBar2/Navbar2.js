@@ -1,10 +1,10 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import '../NavBar2/Navbar2.css';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import { Nav, Navbar } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
+// import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navbar2() {
@@ -13,7 +13,7 @@ function Navbar2() {
       <Navbar bg="primary" expand="lg">
          <Container fluid>
 
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="https://waheedgroup.com.pk">
                <img class="sealImage" height={"70px"} src="WhaeedHafeez.png" alt="file-not-found" />
                Waheed Group
             </Navbar.Brand>
@@ -23,6 +23,7 @@ function Navbar2() {
             <Navbar.Collapse id="navbarScroll">
 
                <Nav className="me-auto my-2 my-lg-0"
+                  // style={{ maxHeight: '100px', letter- spacing:'1px' }}
                   style={{ maxHeight: '100px' }}
                   navbarScroll
                >
@@ -30,25 +31,63 @@ function Navbar2() {
                      <Nav.Link href="/">Home</Nav.Link>
                   </Nav.Item>
 
-                  <Nav.Item>
-                     <Nav.Link href="/Services">Services</Nav.Link>
-                  </Nav.Item>
+                  <NavDropdown title="About Us" id="navbarScrollingDropdown">
+                     <NavDropdown.Item href="#action-down1">Chairman</NavDropdown.Item>
+                     <NavDropdown.Divider />
 
-                  <Nav.Item>
-                     {/* <Nav.Link target="_blank" href="/ContactUs">ContactUs</Nav.Link> */}
-                     <Nav.Link href="/ContactUs">ContactUs</Nav.Link>
-                  </Nav.Item>
-
-                  <NavDropdown title="About" id="navbarScrollingDropdown">
-                     <NavDropdown.Item href="#action-down1">Action-Down1</NavDropdown.Item>
                      <NavDropdown.Item href="#action4">
-                        Another action 1
+                        Director
+                     </NavDropdown.Item><NavDropdown.Divider />
+
+                     <NavDropdown.Item href="#action-down1">
+                        Awards</NavDropdown.Item>
+                     <NavDropdown.Divider />
+
+                     <NavDropdown.Item href="#action4">
+                        About Us
+                     </NavDropdown.Item>
+                     {/* <NavDropdown.Divider /> */}
+                     {/* <NavDropdown.Item href="#action5">
+                        Something else here 1
+                     </NavDropdown.Item> */}
+                  </NavDropdown>
+                  {/* =================== */}
+                  <NavDropdown title="Our Concerns" id="navbarScrollingDropdown">
+                     <NavDropdown.Item href="#action-down1">Oil and Ghee</NavDropdown.Item><NavDropdown.Divider />
+                     <NavDropdown.Item href="#action4">
+                        Industrial Fat
+                     </NavDropdown.Item><NavDropdown.Divider />
+                     <NavDropdown.Item href="#action-down1">Transport</NavDropdown.Item><NavDropdown.Divider />
+                     <NavDropdown.Item href="#action4">
+                        Hotel
                      </NavDropdown.Item>
                      <NavDropdown.Divider />
                      <NavDropdown.Item href="#action5">
-                        Something else here 1
+                        Energy Sector
+                     </NavDropdown.Item>
+                     <NavDropdown.Divider />
+                     <NavDropdown.Item href="#action5">
+                        WGC Interprises Ltd
                      </NavDropdown.Item>
                   </NavDropdown>
+                  <Nav.Item>
+                     <Nav.Link href="/OurProducts">Our Products</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                     <Nav.Link href="/Latestnews">Latest News</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                     <Nav.Link href="/Mediagallery">Media Gallery</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                     <Nav.Link href="/Contact Us">Contact Us</Nav.Link>
+                  </Nav.Item>
+
+                  {/* <Nav.Item> */}
+                  {/* <Nav.Link target="_blank" href="/ContactUs">ContactUs</Nav.Link> */}
+                  {/* <Nav.Link href="/ContactUs">ContactUs</Nav.Link>
+                  </Nav.Item> */}
+
 
                   {/* <Nav.Link href="#" disabled>
                      Link disabled
@@ -56,7 +95,8 @@ function Navbar2() {
 
                </Nav>
 
-               <Form className="d-flex">
+               {/* ===================== */}
+               {/* <Form className="d-flex">
                   <Form.Control
                      type="search"
                      placeholder="Search"
@@ -64,7 +104,8 @@ function Navbar2() {
                      aria-label="Search"
                   />
                   <Button variant="outline-success">Search</Button>
-               </Form>
+               </Form> */}
+               {/* ============== */}
             </Navbar.Collapse>
          </Container >
       </Navbar >

@@ -1,5 +1,3 @@
-// import Navbar1 from '../Navbar/Navbar1.js'
-// import Footer from '../Footer/Footer.js'
 import '../Rows/Row1.css'
 
 const Row1 = () => {

@@ -11,8 +11,12 @@
   justify-content: flex-end;
 }
 
+.bg-primary {
+  background-color: #9b7808 !important;
+}
+
 Navbar {
-  background-color: red;
+  background-color: #9b7808;
 }
 
 Nav {
@@ -27,7 +31,7 @@ Nav {
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
-  border-radius: 05px;
+  border-radius: 01px;
   /* overflow: auto; */
 }
 
@@ -58,11 +62,6 @@ nav .logo {
 
   /*  */
 }
-
-
-
-
-
 
 nav ul {
   display: flex;
@@ -173,6 +172,70 @@ input[type="checkbox"] {
   font-size: 40px;
   font-weight: 700;
 }
+
+/* Manually Changing Bootstrap CSS for form/Button  Start*/
+.btn-outline-success {
+  --bs-btn-color: #ffffff;
+  --bs-btn-border-color: #ffffff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0dcaf0;
+  --bs-btn-hover-border-color: #198754;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #198754;
+  --bs-btn-active-border-color: #198754;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #198754;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #198754;
+  --bs-gradient: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffff;
+  /* color: #d22929; */
+}
+
+.navbar-light .navbar-brand {
+  /* color: rgba(255, 255, 255, 255); */
+  color: rgba(200, 200, 200, 200);
+}
+
+/* Manually Changing Bootstrap CSS for form/Button End */
+
+/* Changeing the Search Button */
+
+
+/* Css of Search Form By Own */
+
+
+/* End of Css of Search form own */
+
+/* CSS from Navbar of Original Website Start Here */
+
+
+
+/* CSS from Navbar of Original Website Ends Here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* =========Extra Not Working Codes of Css of NovBars Blow this line ============= */

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import '../Footer/Footer.css'
-
+// import Logo from '';
 const Footer = () => {
   return (
     <div class="pg-footer">
@@ -11,16 +11,21 @@ const Footer = () => {
         <div class="footer-content">
           <div class="footer-content-column">
             <div class="footer-logo">
-
               <Link to='/*'>
-                <h1>W GROUP Within Link 1  </h1>
+                <img class="sealImage" height={"125px"} src="WhaeedHafeez.png" alt="file-not-found" />
+                {/* <h1>WAHEED GROUP</h1> */}
+
               </Link>
-
-
-
+              <Link to='/*'>
+                {/* <img class="sealImage" height={"70px"} src="WhaeedHafeez.png" alt="file-not-found" /> */}
+                <h1 className="footer-h1" style={{ color: "#e9dedc" }}>WAHEED GROUP</h1>
+              </Link>
+            </div>
+            <div>
+              Welcome to the Waheed Group of Companies! What started off over four decades ago as a small business has today spread out by leaps and bounds to be-come Pakistan’s largest business group.
             </div>
             <div class="footer-menu">
-              <h2 class="footer-menu-name"> Get Started</h2>
+              <h2 class="footer-menu-name"> Welcome</h2>
               <ul id="menu-get-started" class="footer-menu-list">
                 <li class="menu-item menu-item-type-post_type menu-item-object-product">
 

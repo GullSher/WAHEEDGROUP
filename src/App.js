@@ -1,6 +1,21 @@
+import React from "react";
 import './App.css';
 // importing Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+import ReactDOM from 'react-dom';
+
+// import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
+// import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
+
+import { Routes } from "react-router-dom";
+
 //  importing globaly some css files of wordpress 
 // 
 // import '../src/Components/Footer2a/css/default.css';
@@ -11,10 +26,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import '../src/Components/Footer2a/css/owl.carousel.css';
 // import '../src/Components/Footer2a/css/rev-settings.css';
 // import '../src/Components/Footer2a/css/themify-icons.css';
-
-
-// 
-import { Routes, Route } from "react-router-dom";
 
 // import Navbar1 from './Components/Navbar1/Navbar1';
 // import Navbar2 from './Components/NavBar2/Navbar2';
@@ -42,33 +53,41 @@ import Footer3a from './Components/Footer3a/Footer3a';
 // import { Button } from 'react-bootstrap';
 
 function App() {
-  return (
-    <div className="App">
-      {/* <Navbar1 /> */}
-      {/* <Navbar2 /> */}
-      {/* <Navbar4 /> */}
-      {/* <Navbar5 /> */}
-      {/* <Navbar6 /> */}
-      <UpperNavbar />
-      <Navbar1a />
-      <Video1 />
-      <CarouselReact />
-      <Routes>
-        <Route exact path='/' Component={Home} />
-        <Route exact path='/Home' Component={Home} />
-        <Route exact path='/AboutUs' Component={AboutUs} />
-        <Route exact path='/Services' Component={Services} />
-        <Route exact path='/ContactUs' Component={ContactUs} />
-        {/* <Route exact path='/SignUp' Component={SignUp} /> */}
-      </Routes>
+    return (
+        <div className="App">
+            {/* <Navbar1 /> */}
+            {/* <Navbar2 /> */}
+            {/* <Navbar4 /> */}
+            {/* <Navbar5 /> */}
+            {/* <Navbar6 /> */}
+            <UpperNavbar />
+            <Navbar1a />
+            <Video1 />
+            <CarouselReact />
 
-      {/* <Footer /> */}
-      {/* <Footer2a /> */}
-      <Footer3a />
 
-    </div >
 
-  );
+
+
+
+
+
+            <Routes>
+                <Route exact path='/' Component={Home} />
+                <Route exact path='/Home' Component={Home} />
+                <Route exact path='/AboutUs' Component={AboutUs} />
+                <Route exact path='/Services' Component={Services} />
+                <Route exact path='/ContactUs' Component={ContactUs} />
+                {/* <Route exact path='/SignUp' Component={SignUp} /> */}
+            </Routes>
+
+            {/* <Footer /> */}
+            {/* <Footer2a /> */}
+            <Footer3a />
+
+        </div >
+
+    );
 }
 
 export default App;

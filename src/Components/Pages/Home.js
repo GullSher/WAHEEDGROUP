@@ -15,7 +15,7 @@ const Home = () => {
                 backgroundColor: 'white',
             }}        >
 
-            <h1 style={{ color: 'red' }}>WELCOME TO WAHEED GROUP OF COMPANIES. HOME PAGE.<br /> </h1>
+            {/* <h1 style={{ color: 'red' }}>WELCOME TO WAHEED GROUP OF COMPANIES. HOME PAGE.<br /> </h1> */}
             <div className='Rows'> <Row1 /></div>
             <div className='Rows'> <Row2 /></div>
 

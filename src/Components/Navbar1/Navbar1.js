@@ -5,8 +5,11 @@
 
 import '../Navbar1/Navbar1.css';
 // import { mainlogo1 } from '../Assets/logo/waheedgroup-logo.jpg';
-import '../Assets/logo/waheedgroup-logo1.jpg';
-import '../Assets/logo/waheedgroup-logo.jpg';
+// import '../Assets/logo/waheedgroup-logo1.jpg';
+// import { ReactComponent as Logo } from './logo.svg';
+// import '../Assets/logo/WhaeedHafeez.png';
+// import { logo } from './Assets/logo/waheedgroup-logo.jpg';
+// import {logo} from  './Assets/logo/waheedgroup-logo.jpg';
 // import '.../Assets/logo/waheedgroup-logo.jpg';
 // import '../'
 
@@ -35,9 +38,10 @@ const Navbar1 = () => {
             {/* <img class="logo" src="../Assets/logo/waheedgroup-logo1.jpg" height={"80px"} alt='not Found....   ' /> */}
             {/* <img alt="aa" src="../Assets/logo/waheedgroup-log.png" /> */}
             {/* file:///H:/Work-Folder-9/Web Work 9/3 may 2023/gullshair/website/src/Assets/logo/waheedgroup-log.png */}
-            <img class="sealImage" height={"70px"} src="WhaeedHafeez.png" alt="file-not-found" />
+            {/* <img class="sealImage" height={"70px"} src="WhaeedHafeez.png" alt="file-not-found" /> */}
+            {/* <img class="sealImage" height={"70px"} src="WhaeedHafeez.png" alt="file-not-found" /> */}
             {/* <img src="https://i.imgur.com/hCrQkJi.png" /> */}
-
+            <img class="logo" src="./Assets/logo/WhaeedHafeez.png" height={"80px"} alt='not Found....   ' />
             Waheed Group Navbar 1
          </div>
 

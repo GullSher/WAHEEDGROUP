@@ -1,7 +1,6 @@
-import '../Navbar1a/Navbar1ajs.js';
-import '../Navbar1a/Navbar1a.css';
 import LogoNav from '../Footer2a/img/whImages/logo.png';
-
+import '../Navbar1a/Navbar1a.css';
+import '../Navbar1a/Navbar1ajs.js';
 // import { logo } from ".../src/Assets/waheedgroup-logo.jpg";
 // import '../Assets/logo/waheedgroup-logo.jpg';
 
@@ -10,6 +9,8 @@ const Navbar1a = () => {
     return (
 
         <nav id="navigation4" class="container navigation">
+            {/* Create Logo for Navbar  */}
+            {/* <Link to='/' className='logo'><i className='fas fa-home' /> Pro-Blog </Link> */}
             {/* <nav id="navigation4" class="container-fluid navigation"> */}
             <div class="nav-header"><a class="nav-brand" href="index_php.html">
 
@@ -20,11 +21,13 @@ const Navbar1a = () => {
             </div>
             <div class="nav-menus-wrapper">
                 <ul class="nav-menu align-to-right">
-                    <li><a href="index_php.html">Home</a></li>
+                    <li><i className='fa fa-home' /><a href="index_php.html">Home</a></li>
                     <li>
-                        <a href="http://www.google.com">About Us</a>
+                        <a href="http://www.google.com" target='_blank'>About Us</a>
+                        {/* <a href="about.js">About Us</a> */}
                         <ul class="nav-dropdown">
-                            <li><a href="chairman.html">Chairman</a></li>
+                            <li><a href="chairman.js" target='_blank'>Chairman</a></li>
+                            {/* <li><a href="chairman.js">Chairman</a></li> */}
                             <li><a href="directors.html">Directors</a></li>
                             <li><a href="awards.html">Awards</a></li>
                             <li><a href="aboutus.html">About Us </a></li>

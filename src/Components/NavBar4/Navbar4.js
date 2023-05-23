@@ -15,7 +15,7 @@ function Navbar4() {
             <div class="nav-header">
                <a class="nav-brand" href="index_php.html">
                   {/* <img src="./img/whImages/logo.png" class="main-logo" alt="logo" id="main_logo" /> */}
-                  <img class="sealImage" height={"70px"} src="WhaeedHafeez.png" alt="file-not-found" />
+                  <img class="sealImage" style={{ height: "70px" }} src="WhaeedHafeez.png" alt="file-not-found" />
                </a>
                <div class="nav-toggle"></div>
             </div>

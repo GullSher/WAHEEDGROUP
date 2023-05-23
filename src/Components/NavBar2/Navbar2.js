@@ -16,7 +16,7 @@ function Navbar2() {
             <Navbar.Brand href="https://waheedgroup.com.pk">
                {/* <img class="sealImage" height={"20px"} src="WhaeedHafeez.png" alt="file-not-found" />
                <img class="sealImage" height={"20px"} src="WhaeedHafeez.png" alt="file-not-found" />  */}
-               <img className="Navbar-Image" height={"30px"} src="WhaeedHafeez.png" alt="file-not-found" />
+               <img className="Navbar-Image" style={{ height: '60px' }} src="WhaeedHafeez.png" alt="file-not-found" />
                Waheed Group
             </Navbar.Brand>
 
@@ -34,7 +34,10 @@ function Navbar2() {
                   </Nav.Item>
 
                   <NavDropdown title="About Us" id="navbarScrollingDropdown">
-                     <NavDropdown.Item href="#action-down1">Chairman</NavDropdown.Item>
+                     {/* <NavDropdown.Item href="#action-down1">Chairman</NavDropdown.Item> */}
+                     <NavDropdown.Item href="/chairman">Chairman</NavDropdown.Item>
+
+
                      <NavDropdown.Divider />
 
                      <NavDropdown.Item href="#action4">

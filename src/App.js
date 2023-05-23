@@ -28,11 +28,9 @@ import { Routes } from "react-router-dom";
 // import '../src/Components/Footer2a/css/themify-icons.css';
 
 // import Navbar1 from './Components/Navbar1/Navbar1';
-// import Navbar2 from './Components/NavBar2/Navbar2';
-
-// import Navbar4 from './Components/NavBar4/Navbar4';
+import Navbar2 from './Components/NavBar2/Navbar2';
+import Navbar4 from './Components/NavBar4/Navbar4';
 // import Navbar5 from './Components/Navbar5/Navbar5';
-// import Navbar6 from './Components/Navbar6/Navbar6';
 // import Navbar6 from './Components/Navbar6/Navbar6';
 import UpperNavbar from './Components/UpperNavbar/UpperNavbar';
 import Navbar1a from './Components/Navbar1a/Navbar1a';
@@ -47,6 +45,7 @@ import ContactUs from "./Components/Pages/ContactUs";
 // import Footer2 from './Components/Footer2/Footer2';
 // import Footer2a from './Components/Footer2a/Footer2a';
 import Footer3a from './Components/Footer3a/Footer3a';
+import MyNavbar from "./Components/Navbar1aa/MyNavbar";
 // import NotFound from './Components/NotFound';
 // import Button from 'react-bootstrap/Button';
 // or less ideally
@@ -56,11 +55,13 @@ function App() {
     return (
         <div className="App">
             {/* <Navbar1 /> */}
-            {/* <Navbar2 /> */}
-            {/* <Navbar4 /> */}
+            <Navbar2 />
+            <Navbar4 />
             {/* <Navbar5 /> */}
             {/* <Navbar6 /> */}
             <UpperNavbar />
+            <MyNavbar />
+
             <Navbar1a />
             <Video1 />
             <CarouselReact />

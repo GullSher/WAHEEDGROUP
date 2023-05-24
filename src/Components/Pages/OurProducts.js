@@ -3,28 +3,29 @@ import Row1 from "../Rows/Row1"
 import Row2 from '../Rows/Row2.js';
 
 
-const WGCInterprizesLtd = () => {
+const OurProducts = () => {
     return (
         <div
             style={{
                 // display: 'flex',
+                // width: '100%',
                 justifyContent: 'center',
                 alignItems: 'center',
                 // height: '20vh',
                 height: '100%',
-                backgroundColor: 'white'
+                backgroundColor: 'white',
+            }}        >
 
-
-            }}
-        >
-            <h1>WGC Interprizes Ltd.</h1>
+            <h1 style={{ color: 'red' }}>Our Products PAGE.<br /> </h1>
             <div className='Rows'> <Row1 /></div>
             <div className='Rows'> <Row2 /></div>
 
-        </div>
+
+        </div >
+
     );
 };
 
-export default WGCInterprizesLtd;
+export default OurProducts;
 
-// https://github.com/briancodex/react-navbar-v3/blob/main/src/components/Navbar/index.js
+//https://github.com/briancodex/react-navbar-v3/blob/main/src/components/Navbar/index.js

@@ -95,7 +95,7 @@ function Navbar2() {
                      <Nav.Link href="/Mediagallery">Media Gallery</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                     <Nav.Link href="/Contact Us">Contact Us</Nav.Link>
+                     <Nav.Link href="/ContactUs">Contact Us</Nav.Link>
                   </Nav.Item>
 
                   {/* <Nav.Item> */}

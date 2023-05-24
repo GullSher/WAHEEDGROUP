@@ -1,6 +1,6 @@
 import React from 'react';
-// import Row1 from "../Rows/Row1"
-// import Row2 from '../Rows/Row2.js';
+import Row1 from "../Rows/Row1"
+import Row2 from '../Rows/Row2.js';
 // import Footer from '../Footer/Footer.js';
 
 const ContactUs = () => {
@@ -16,8 +16,8 @@ const ContactUs = () => {
             }}
         >
             <h1 style={{ fontSize: "70px" }} >Contact Us</h1>
-            {/* <div className='Rows'> <Row1 /></div>
-            <div className='Rows'> <Row2 /></div> */}
+            <div className='Rows'> <Row1 /></div>
+            <div className='Rows'> <Row2 /></div>
 
 
             {/* 

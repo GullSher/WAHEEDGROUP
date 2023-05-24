@@ -55,7 +55,8 @@ import Topbar from "./Components/Pages/Topbar";
 import Transport from "./Components/Pages/Transport";
 import LatestNews from './Components/Pages/LatestNews';
 import WGC_Interprizes_Ltd from "./Components/Pages/WGC_Interprizes_Ltd";
-
+import OurProducts from "./Components/Pages/OurProducts";
+import MediaGallery from "./Components/Pages/MediaGallery";
 // import Footer from './Components/Footer/Footer';
 // import Footer2 from './Components/Footer2/Footer2';
 // import Footer2a from './Components/Footer2a/Footer2a';
@@ -108,8 +109,9 @@ function App() {
                 <Route exact path='/WGC_Interprizes_Ltd' Component={WGC_Interprizes_Ltd} />
                 <Route exact path='/NotFound' Component={NotFound} />
                 <Route exact path='/Topbar' Component={Topbar} />
-
-
+                <Route exact path="/LatestNews" Component={LatestNews} />
+                <Route exact path="/OurProducts" Component={OurProducts} />
+                <Route exact path="/MediaGallery" Component={MediaGallery} />
 
 
 

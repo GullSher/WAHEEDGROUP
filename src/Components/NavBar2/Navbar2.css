@@ -4,7 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px; */
 }
 
 .ul .flex-end {
@@ -35,6 +39,19 @@ Nav {
   flex-wrap: wrap;
   border-radius: 01px;
   /* overflow: auto; */
+
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align-last: right;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #222;
 }
 
 nav .logo {
@@ -88,7 +105,8 @@ nav ul li a {
 
 nav ul li a.active,
 nav ul li a:hover {
-  color: #111;
+  /* color: #111; */
+  color: #fb5d5d;
   background: #fff;
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import LogoNav from '../Footer2a/img/whImages/logo.png';
-import { Col, Container, Nav, NavDropdown, Navbar, Row } from 'react-bootstrap'
+import { Col, Container, Nav, NavDropdown, Navbar, Row } from 'react-bootstrap';
+
 
 function MyNavbar() {
     return (
@@ -20,7 +21,7 @@ function MyNavbar() {
                                     <Nav className="me-auto fw-bold">
                                         {/* <Nav className="fw-bold" > */}
                                         {/* <Nav> */}
-                                        <Nav.Link href='#'>HOME</Nav.Link>
+                                        <Nav.Link href='/'>HOME</Nav.Link>
 
                                         <NavDropdown title="ABOUT US" id="my-nav">
                                             {/* <ul class="nav-dropdown">
@@ -30,13 +31,15 @@ function MyNavbar() {
                                                     <li><a href="aboutus.html">About Us </a></li>
                                                 </ul> */}
 
-                                            <NavDropdown.Item href='about.js'>ABOUT US</NavDropdown.Item>
-                                            <NavDropdown.Item href="chairman.js">Chairman</NavDropdown.Item>
+                                            <NavDropdown.Item href='/AboutUs'>ABOUT US</NavDropdown.Item>
+                                            <NavDropdown.Item href='/Chairman' target='_blank'>Chairman</NavDropdown.Item>
+                                            <NavDropdown.Item href="/Chairman">Chairman2</NavDropdown.Item>
+
                                             <NavDropdown.Header>Heading 1</NavDropdown.Header>
-                                            <NavDropdown.Item href="director.js">Director </NavDropdown.Item>
+                                            <NavDropdown.Item href="/Director">Director </NavDropdown.Item>
                                             <NavDropdown.Divider />
                                             <NavDropdown.Header>Heading 2</NavDropdown.Header>
-                                            <NavDropdown.Item href="Awards.js">Awards </NavDropdown.Item>
+                                            <NavDropdown.Item href="/Awards">Awards </NavDropdown.Item>
                                         </NavDropdown>
 
                                         <Nav.Link href='#'>OUR CONCERNS</Nav.Link>

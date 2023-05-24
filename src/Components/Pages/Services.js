@@ -1,18 +1,30 @@
 import React from 'react';
+import Row1 from "../Rows/Row1"
+import Row2 from '../Rows/Row2.js';
+
 
 const Services = () => {
     return (
         <div
             style={{
-                display: 'flex',
+                // display: 'flex',
+                // width: '100%',
                 justifyContent: 'center',
                 alignItems: 'center',
-                height: '20vh'
-            }}
-        >
-            <h1>Software Development Services</h1>
+                // height: '20vh',
+                height: '100%',
+                backgroundColor: 'white',
+            }}        >
 
-        </div>
+            <h1 style={{ color: 'red' }}>SERVICES PAGE.<br /> </h1>
+            <div className='Rows'> <Row1 /></div>
+            <div className='Rows'> <Row2 /></div>
+
+
+        </div >
+
+
+
 
     );
 };

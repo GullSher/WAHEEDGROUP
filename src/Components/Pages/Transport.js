@@ -15,7 +15,7 @@ const Transport = () => {
                 backgroundColor: 'white'
             }}
         >
-            <h1 style={{ fontSize: "70px" }} >Contact Us</h1>
+            <h1 style={{ fontSize: "70px" }} >Transport Page.</h1>
             <div className='Rows'> <Row1 /></div>
             <div className='Rows'> <Row2 /></div>
 

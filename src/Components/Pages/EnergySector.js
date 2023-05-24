@@ -15,7 +15,7 @@ const EnergySector = () => {
                 backgroundColor: 'white'
             }}
         >
-            <h1 style={{ fontSize: "70px" }} >Contact Us</h1>
+            <h1 style={{ fontSize: "70px" }} >Energy Sector Page</h1>
             <div className='Rows'> <Row1 /></div>
             <div className='Rows'> <Row2 /></div>
 

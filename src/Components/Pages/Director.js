@@ -8,14 +8,17 @@ const Director = () => {
         <div
             style={{
                 // display: 'flex',
+                // width: '100%',
                 justifyContent: 'center',
                 alignItems: 'center',
                 // height: '20vh',
                 height: '100%',
-                backgroundColor: 'white'
+                backgroundColor: 'white',
+
+
             }}
         >
-            <h1 style={{ fontSize: "70px" }} >Contact Us</h1>
+            <h1 style={{ fontSize: "70px" }} >Director Page</h1>
             <div className='Rows'> <Row1 /></div>
             <div className='Rows'> <Row2 /></div>
 

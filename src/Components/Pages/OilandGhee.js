@@ -3,7 +3,7 @@ import Row1 from "../Rows/Row1"
 import Row2 from '../Rows/Row2.js';
 // import Footer from '../Footer/Footer.js';
 
-const ContactUs = () => {
+const OilandGhee = () => {
     return (
         <div
             style={{
@@ -15,7 +15,7 @@ const ContactUs = () => {
                 backgroundColor: 'white'
             }}
         >
-            <h1 style={{ fontSize: "70px" }} >Contact Us</h1>
+            <h1 style={{ fontSize: "70px" }} >Oil And Ghee Page.</h1>
             <div className='Rows'> <Row1 /></div>
             <div className='Rows'> <Row2 /></div>
 
@@ -28,6 +28,6 @@ const ContactUs = () => {
     );
 };
 
-export default ContactUs;
+export default OilandGhee;
 
 //https://github.com/briancodex/react-navbar-v3/blob/main/src/components/Navbar/index.js

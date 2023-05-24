@@ -10,68 +10,78 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function Navbar2() {
    return (
       // <Navbar bg="light" expand="lg">
-      <Navbar bg="primary" expand="lg">
+      // <Navbar bg="primary" expand="lg">
+      <Navbar expand="lg">
          <Container fluid>
 
             <Navbar.Brand href="https://waheedgroup.com.pk">
                {/* <img class="sealImage" height={"20px"} src="WhaeedHafeez.png" alt="file-not-found" />
                <img class="sealImage" height={"20px"} src="WhaeedHafeez.png" alt="file-not-found" />  */}
                <img className="Navbar-Image" style={{ height: '60px' }} src="WhaeedHafeez.png" alt="file-not-found" />
-               Waheed Group
+               WAHEED GROUP
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="navbarScroll" />
 
             <Navbar.Collapse id="navbarScroll">
 
+               {/* <Nav className="me-auto my-2 my-lg-0" */}
+               {/* <Nav className="me-auto my-2 my-lg-0" */}
+
                <Nav className="me-auto my-2 my-lg-0"
+
                   // style={{ maxHeight: '100px', letter- spacing:'1px' }}
+                  // style={{ maxHeight: '100px', alignItems: 'flex-end' }}
                   style={{ maxHeight: '100px' }}
                   navbarScroll
                >
+
+
+
+
+
+
+
+
+
                   <Nav.Item>
                      <Nav.Link href="/">Home</Nav.Link>
                   </Nav.Item>
 
                   <NavDropdown title="About Us" id="navbarScrollingDropdown">
                      {/* <NavDropdown.Item href="#action-down1">Chairman</NavDropdown.Item> */}
-                     <NavDropdown.Item href="/chairman">Chairman</NavDropdown.Item>
+                     <NavDropdown.Item href="/Chairman">Chairman</NavDropdown.Item>
 
 
                      <NavDropdown.Divider />
 
-                     <NavDropdown.Item href="#action4">
+                     <NavDropdown.Item href="/Director">
                         Director
                      </NavDropdown.Item><NavDropdown.Divider />
 
-                     <NavDropdown.Item href="#action-down1">
+                     <NavDropdown.Item href="/Awards">
                         Awards</NavDropdown.Item>
                      <NavDropdown.Divider />
 
-                     <NavDropdown.Item href="#action4">
+                     <NavDropdown.Item href="/AboutUs">
                         About Us
                      </NavDropdown.Item>
-                     {/* <NavDropdown.Divider /> */}
+
                      {/* <NavDropdown.Item href="#action5">
                         Something else here 1
                      </NavDropdown.Item> */}
                   </NavDropdown>
                   {/* =================== */}
                   <NavDropdown title="Our Concerns" id="navbarScrollingDropdown">
-                     <NavDropdown.Item href="#action-down1">Oil and Ghee</NavDropdown.Item><NavDropdown.Divider />
-                     <NavDropdown.Item href="#action4">
-                        Industrial Fat
-                     </NavDropdown.Item><NavDropdown.Divider />
-                     <NavDropdown.Item href="#action-down1">Transport</NavDropdown.Item><NavDropdown.Divider />
-                     <NavDropdown.Item href="#action4">
-                        Hotel
-                     </NavDropdown.Item>
+                     <NavDropdown.Item href="/OilandGhee">Oil and Ghee</NavDropdown.Item><NavDropdown.Divider />
+                     <NavDropdown.Item href="/IndustrialFat">Industrial Fat</NavDropdown.Item><NavDropdown.Divider />
+                     <NavDropdown.Item href="/Transport">Transport</NavDropdown.Item><NavDropdown.Divider />
+                     <NavDropdown.Item href="/Hotel">Hotel</NavDropdown.Item>
                      <NavDropdown.Divider />
-                     <NavDropdown.Item href="#action5">
-                        Energy Sector
-                     </NavDropdown.Item>
+
+                     <NavDropdown.Item href="/EnergySector">Energy Sector</NavDropdown.Item>
                      <NavDropdown.Divider />
-                     <NavDropdown.Item href="#action5">
+                     <NavDropdown.Item href="/WGC_Interprizes_Ltd">
                         WGC Interprises Ltd
                      </NavDropdown.Item>
                   </NavDropdown>

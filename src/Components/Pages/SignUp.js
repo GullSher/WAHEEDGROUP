@@ -1,4 +1,7 @@
 import React from 'react';
+import Row1 from "../Rows/Row1"
+import Row2 from '../Rows/Row2.js';
+
 
 const SignUp = () => {
     return (
@@ -10,7 +13,10 @@ const SignUp = () => {
                 height: '90vh'
             }}
         >
-            <h1>Sign Up</h1>
+            <h1>Sign Up Page.</h1>
+            <div className='Rows'> <Row1 /></div>
+            <div className='Rows'> <Row2 /></div>
+
         </div>
     );
 };

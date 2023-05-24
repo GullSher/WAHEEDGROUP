@@ -1,4 +1,5 @@
-import React from 'react'; import Row1 from "../Rows/Row1"
+import React from 'react';
+import Row1 from "../Rows/Row1"
 import Row2 from '../Rows/Row2.js';
 
 
